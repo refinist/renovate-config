@@ -1,15 +1,15 @@
 {
   "name": "@refinist/renovate-config",
-  "packageManager": "pnpm@10.11.0",
-  "scripts": {
-    "test": "renovate-config-validator ./default.json"
-  },
-  "author": "Jeff Wang",
   "license": "MIT",
+  "author": "Jeff Wang",
   "files": [
     "default.json"
   ],
+  "scripts": {
+    "test": "renovate-config-validator ./default.json"
+  },
   "dependencies": {
     "renovate": "^38.72.0"
-  }
+  },
+  "packageManager": "pnpm@10.11.0"
 }
